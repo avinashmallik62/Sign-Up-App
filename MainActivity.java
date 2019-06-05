@@ -9,7 +9,9 @@ import android.widget.EditText;
 public class MainActivity extends AppCompatActivity {
 
     public void clickFunction(View view){
-
+        
+        Toast.makeText(MainActivity.this,"Sign-Up Successful", Toast.LENGTH_LONG).show();
+        
         EditText myTextName =(EditText)findViewById(R.id.myTextName);
         EditText myTextEmail =(EditText)findViewById(R.id.myTextEmail);
         EditText myTextPassword =(EditText)findViewById(R.id.myTextPassword);
